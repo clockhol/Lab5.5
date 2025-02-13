@@ -4,7 +4,9 @@
 
 :root {
     --main-bg-color: #E9E9E9;
+    --alt-bg-color: #D6D7D6;
     --primary-text-color: #424242;
+    --alt-text-color: #FFFFFF;
     --accent-color: #FF3F3C;
 }
 
@@ -44,6 +46,11 @@ main {
     margin: 0;
 }
 
+.details h3 {
+    font-size: 2em;
+    text-align: center; 
+}
+
 .details ul li { 
     list-style-type: none;
     margin: 10px 0;
@@ -64,4 +71,35 @@ main {
 
 .details ul li.photo {
     background: url(photo-film-solid.svg) no-repeat center left;
+}
+
+.cta {
+    font-size: 2em;
+    text-align: center; 
+    margin-bottom: 75px;
+}
+
+.cta form {
+    padding: 20px 25px 20px 25px;
+    margin: auto;
+    background-color: var(--alt-bg-color) ;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+input[type=text] {
+    min-height: 50px;
+    box-sizing: border-box;
+    width: 350px;
+}
+
+input[type=button] {
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: var(--alt-text-color)
+    background-color: var(--accent-color);
+    min-height: 50px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
 }
