@@ -96,7 +96,7 @@ input[type=text] {
 input[type=button] {
     margin-left: 10px;
     text-transform: uppercase;
-    color: var(--alt-text-color)
+    color: var(--alt-text-color);
     background-color: var(--accent-color);
     min-height: 50px;
     border: none;
